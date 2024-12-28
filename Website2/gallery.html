@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Gallery</title>
+    
+</head>
+<link rel="shortcut icon " type="x-icon" href="Gallery-PNG-File.png" style="border-radius:30 px ;">
+<br>
+
+<body>
+  <link rel="stylesheet" href="style.css">
+  <!-- Second Parallax Image with Portfolio Text -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">Social Media </span>
+    </div>
+ </div>
+ <br><center><button> Facebook Profile</button> <br> <br><div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/profile.php?id=100070929710496&amp;sk=about" data-tabs="timeline" data-width="350" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=416&amp;height=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Shishir%2F%3Fref%3Dembed_page&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=350"><span style="vertical-align: bottom; width: 300px; height: 300px;"><iframe name="ff67c73170ea2f0c2" width="350px" height="300px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v13.0/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;container_width=416&amp;height=300&amp;hide_cover=false&amp;href=https://www.facebook.com/profile.php?id=100070929710496&amp;sk=about&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=350" style="border: none; visibility: visible; width: 350px; height: 300px;" class="">
+  </iframe>
+  </span>
+  </div><hr>
+
+ 
+ <br> <button>Tik Tok Profile</button> <br> 
+  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@_shishir__gautam__11" data-unique-id="_shishir__gautam__11" data-embed-type="creator" style="max-width: 780px; min-width: 288px;" > <section> <a target="_blank" href="https://www.tiktok.com/@_shishir__gautam__11?refer=creator_embed">@_shishir__gautam__11</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</div><br>
+
+
+<style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color:black;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("WELCOME TO.png");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("WELCOME TO7.png");
+  min-height: 400px;
+  color: rgb(199, 38, 38);
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+  h1{
+    background-color:aliceblue;
+    color: #000000;
+    padding: 10px 10px;
+    font-size: large;
+  }
+  button{
+    background-color: rgb(4, 4, 65);
+    color: #f2f2f2;
+    font-size: larger;
+  }
+ 
+  
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    img {
+      vertical-align: middle;
+    }
+    
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+      position: relative;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+    h2{
+      background-color:whitesmoke;
+      background-position: 10px;
+      color: blue;
+      padding: 10px 10px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+    
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+   
+    </style>
+    <body>
+ <!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">Gallery</span>
+  </div>
+</div>
+</div>
+    
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="1.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="2.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="3.jpg" style="width:100%">
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="4.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="5.jpg" style="width:100%">
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="6.jpg" style="width:100%">
+      </div>
+        
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Slideshow Gallery">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Slideshow Gallery">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Slideshow Gallery">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Slideshow Gallery">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Slideshow Gallery">
+        </div>    
+        <div class="column">
+          <img class="demo cursor" src="6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Slideshow Gallery">
+        </div>
+      </div>
+    </div>
+   
+
+
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script><br>
+    <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/profile.php?id=100070929710496"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/shishirgautam53/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.snapchat.com/add/shishir_gaut750?share_id=6LM-12mm5v0&locale=en-GB"><i class="fa fa-snapchat w3-hover-opacity"></i>
+    </a>
+    
+  </div>
+  <p></p>
+</footer>
+ 
+    
+    
+</body>
+</html>
